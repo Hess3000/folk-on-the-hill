@@ -11,5 +11,5 @@ collections:
         name: "lineup"
         file: "_data/lineup.yml"
         fields:
-          - {label: Act 1, name: lineup_artist_1:, widget: string, required: false}
+          - {label: Act 1, name: lineup_artist_1, widget: string, required: false}
           

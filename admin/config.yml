@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: Hess3000/folk-on-the-hill
   branch: netlify_cms
 media_folder: "imgs/uploads"
@@ -9,7 +9,9 @@ collections:
     files:
       - label: "Line up"
         name: "lineup"
-        file: "site/_data/lineup.yml"
+        file: "_data/lineup.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: "Act 1", name: "lineup_artist_1:", widget: "string", required: false}
+          - {label: "Act 2", name: "lineup_artist_2:", widget: "string", required: false}
+          - {label: "Act 3", name: "lineup_artist_3:", widget: "string", required: false}
+          - {label: "Act 4", name: "lineup_artist_4:", widget: "string", required: false}

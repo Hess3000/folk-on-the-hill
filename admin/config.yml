@@ -4,10 +4,10 @@ backend:
   branch: gh-pages
 media_folder: "imgs/uploads"
 collections:
-  - label: "Pages"
+  - label: "Edit sections of Folk on the Hill below"
     name: "pages"
     files:
-      - label: "Line up"
+      - label: "Line-up"
         name: "lineup"
         file: "_data/lineup.yml"
         fields:

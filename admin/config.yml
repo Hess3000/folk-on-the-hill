@@ -19,7 +19,7 @@ collections:
           - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
   		- label: "Locations Page"
         name: "locations"
-        file: "site/content/locations.yml"
+        file: "_data/locations.yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}

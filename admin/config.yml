@@ -17,15 +17,4 @@ collections:
           - {label: Act 4, name: lineup_artist_4, widget: string, required: false}
           - {label: Act 5, name: lineup_artist_5, widget: string, required: false}
           - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
-  		- label: "Locations Page"
-        name: "locations"
-        file: "_data/locations.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+  		

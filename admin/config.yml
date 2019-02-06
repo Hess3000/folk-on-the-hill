@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  repo: Hess3000/folk-on-the-hill
+  branch: netlify_cms
+media_folder: "imgs/uploads"
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Line up"
+        name: "lineup"
+        file: "site/_data/lineup.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}

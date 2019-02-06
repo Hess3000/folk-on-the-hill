@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Hess3000/folk-on-the-hill
-  branch: netlify_cms
+  branch: gh-pages
 media_folder: "imgs/uploads"
 collections:
   - label: "Pages"
@@ -11,7 +11,7 @@ collections:
         name: "lineup"
         file: "_data/lineup.yml"
         fields:
-          - {label: "Act 1", name: "lineup_artist_1:", widget: "string", required: false}
-          - {label: "Act 2", name: "lineup_artist_2:", widget: "string", required: false}
-          - {label: "Act 3", name: "lineup_artist_3:", widget: "string", required: false}
-          - {label: "Act 4", name: "lineup_artist_4:", widget: "string", required: false}
+          - {label: "Act 1", name: lineup_artist_1:, widget: "string", required: false}
+          - {label: "Act 2", name: lineup_artist_2:, widget: "string", required: false}
+          - {label: "Act 3", name: lineup_artist_3:, widget: "string", required: false}
+          - {label: "Act 4", name: lineup_artist_4:, widget: "string", required: false}

@@ -7,7 +7,7 @@ collections:
   - label: "Edit sections of Folk on the Hill below"
     name: "pages"
     files:
-      - label: "Line-up"
+      - label: "Saturday line-up"
         name: "lineup"
         file: "_data/saturday_lineup.yml"
         fields:
@@ -17,7 +17,7 @@ collections:
           - {label: Act 4, name: lineup_artist_4, widget: string, required: false}
           - {label: Act 5, name: lineup_artist_5, widget: string, required: false}
           - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
-      - label: "Line-up"
+      - label: "Sunday line-up"
         name: "lineup"
         file: "_data/sunday_lineup.yml"
         fields:

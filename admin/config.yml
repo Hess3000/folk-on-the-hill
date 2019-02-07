@@ -8,13 +8,8 @@ collections:
     name: "pages"
     files:
       - label: "Saturday line-up"
-        name: "lineup"
-        file: "_data/saturday_lineup.yml"
+        name: "satlineup"
+        file: "_data/lineup.yml"
         fields:
-          - {label: Act 1, name: lineup_artist_1, widget: string, required: false}
-          - {label: Act 2, name: lineup_artist_2, widget: string, required: false}
-          - {label: Act 3, name: lineup_artist_3, widget: string, required: false}
-          - {label: Act 4, name: lineup_artist_4, widget: string, required: false}
-          - {label: Act 5, name: lineup_artist_5, widget: string, required: false}
-          - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
-      
+          - {label: Artist 1, name: name1, widget: string, required: false}
+          

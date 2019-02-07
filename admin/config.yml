@@ -4,7 +4,7 @@ backend:
   branch: gh-pages
 media_folder: "imgs/uploads"
 collections:
-  - label: "Edit sections of Folk on the Hill below"
+  - label: "Line-up"
     name: "pages"
     files:
       - label: "Saturday Line-up"
@@ -33,3 +33,18 @@ collections:
           - {label: Act 16, name: lineup_artist_16, widget: string, required: false}
           - {label: Act 17, name: lineup_artist_17, widget: string, required: false}
           - {label: Act 18, name: lineup_artist_18, widget: string, required: false}
+  - label: "Biographies"
+    name: "biographies"
+    files:
+      - label: "Biographies of artists"
+        name: "bios"
+        file: "_data/biographies.yml"
+        fields:
+          - label: Artist
+            name: artist
+            widget: list
+            fields:
+              - {label: artist, name: artist, widget: string}
+              - {label: description, name: description, widget: string}
+              - {label: cover_url, name: cover_url, widget: string}
+  
